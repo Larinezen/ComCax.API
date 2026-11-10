@@ -1,7 +1,6 @@
 ﻿using ComCax.API.Models;
-using ComCax.API.Repositories;
 
-namespace ComCax.API.Data
+namespace ComCax.API.Repositories
 {
     public class LancamentoRepositoryEmMemoria : ILancamentoRepository
     {

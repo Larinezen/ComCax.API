@@ -1,6 +1,4 @@
 ﻿
-using ComCax.API.Data;
-
 namespace ComCax.API.Models
 {
     public class SaldoDiario 

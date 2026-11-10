@@ -15,7 +15,7 @@
         }
         public override decimal CalcularEfeitoNoSaldo()
         {
-            return Valor - (Valor * Taxa / 100); // O recebimento do cartão aumenta o saldo, mas com a taxa aplicada
+            return base.CalcularEfeitoNoSaldo() - (Valor * Taxa / 100); // Calcula o efeito no saldo considerando a taxa do recebimento do cartão
         }
     }
 }
