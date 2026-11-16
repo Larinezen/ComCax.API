@@ -1,6 +1,6 @@
 @ComCax.API_HostAddress = http://localhost:5140
 
-GET {{ComCax.API_HostAddress}}/weatherforecast/
+GET {{ComCax.API_HostAddress}}/lancamentos/
 Accept: application/json
 
 ###

@@ -1,6 +1,9 @@
-﻿namespace ComCax.API.Exportadores
+﻿using ComCax.API.Models;
+
+namespace ComCax.API.Exportadores
 {
-    public class IExportadorRelatorio
+    public interface IExportadorRelatorio
     {
+        string Exportar(SaldoDiario saldo);
     }
 }
