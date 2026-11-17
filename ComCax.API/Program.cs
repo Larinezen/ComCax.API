@@ -18,6 +18,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwaggerUI(opcoes =>
+    {
+        opcoes.SwaggerEndpoint("/openapi/v1.json", "ComCax API");
+    });
 }
 
 app.UseHttpsRedirection();
